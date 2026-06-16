@@ -1,4 +1,4 @@
-# AutoMeet - AI-Powered Meeting Scheduler
+# AutoMeet __ AI-Powered Meeting Scheduler
 
 ## 📌 About
 
