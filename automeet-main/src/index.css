@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-lavender-50: #F8F3FF;
+  --color-lavender-100: #F5F0FF;
+  --color-lavender-200: #EDE4FF;
+  --color-lavender-300: #E2D5F5;
+  --color-lavender-400: #C084FC;
+  --color-lavender-500: #A78BFA;
+  --color-lavender-600: #9B59B6;
+  --color-lavender-700: #7C6BA6;
+  --color-lavender-800: #6B5B8E;
+  --color-lavender-900: #3C2A6B;
+  --color-lavender-950: #2D1B4E;
+  
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-lavender-50 text-lavender-950 antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-lavender-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-lavender-300);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-lavender-400);
+}
